@@ -6,4 +6,11 @@ body {
   max-width: 1450px;
   margin: auto;
   font-family: "Raleway", sans-serif;
+}
+
+header .container .sub-container1 {
+  width: 30%;
+}
+header .container .sub-container2 {
+  width: 30%;
 }/*# sourceMappingURL=index.css.map */

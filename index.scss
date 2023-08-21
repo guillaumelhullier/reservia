@@ -15,3 +15,15 @@ body {
     margin: auto;
     font-family: 'Raleway', sans-serif;
 }
+
+header {
+    .container {
+        .sub-container1 {
+            width: 30%;
+        }
+
+        .sub-container2 {
+            width: 30%;
+        }
+    }
+}
