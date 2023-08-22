@@ -17,9 +17,16 @@ body {
 }
 
 header {
+
     .container {
+        display: flex;
+
         .sub-container1 {
             width: 30%;
+
+            img {
+                width: 100%;
+            }
         }
 
         .sub-container2 {
