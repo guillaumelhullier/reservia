@@ -19,4 +19,7 @@ header .container .sub-container1 img {
 }
 header .container .sub-container2 {
   width: 30%;
+}
+header .container .sub-container2 ul {
+  list-style-type: none;
 }/*# sourceMappingURL=index.css.map */
