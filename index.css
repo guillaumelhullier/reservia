@@ -12,7 +12,7 @@ header .container {
   display: flex;
 }
 header .container .sub-container1 {
-  width: 30%;
+  width: 8%;
 }
 header .container .sub-container1 img {
   width: 100%;
@@ -22,4 +22,5 @@ header .container .sub-container2 {
 }
 header .container .sub-container2 ul {
   list-style-type: none;
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
