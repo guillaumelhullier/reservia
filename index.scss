@@ -21,6 +21,11 @@ header {
 
     .container {
         display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 60px;
+
 
         .sub-container1 {
             width: 8%;
