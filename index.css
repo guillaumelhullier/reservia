@@ -22,9 +22,31 @@ header .container .sub-container1 img {
   width: 100%;
 }
 header .container .sub-container2 {
-  width: 30%;
+  width: 375px;
+  margin-right: 70px;
 }
 header .container .sub-container2 ul {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
+}
+header .container .sub-container2 ul .a {
+  color: #0065FC;
+}
+
+nav {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+nav h1 {
+  font-weight: 900;
+}
+nav .localisation {
+  display: flex;
+  margin-top: 20px;
+}
+nav .localisation .icone {
+  width: 50px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */

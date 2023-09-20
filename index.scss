@@ -36,12 +36,40 @@ header {
         }
 
         .sub-container2 {
-            width: 30%;
+            width: 375px;
+            margin-right: 70px;
 
             ul {
                 list-style-type: none;
                 display: flex;
+                justify-content: space-around;
+
+                .a {
+                    color: #0065FC;
+                }
             }
+        }
+    }
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 50px;
+
+    h1 {
+        font-weight: 900;
+    }
+
+    .localisation {
+        display: flex;
+        margin-top: 20px;
+
+        .icone {
+            width: 50px;
+            display: flex;
+            justify-content: center;
+
+
         }
     }
 }
