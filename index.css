@@ -39,14 +39,36 @@ nav {
   margin-left: 50px;
 }
 nav h1 {
-  font-weight: 900;
+  font-weight: bolder;
+}
+nav h3 {
+  font-weight: 100;
 }
 nav .localisation {
-  display: flex;
   margin-top: 20px;
+  margin-bottom: 30px;
+  height: 40px;
+  display: flex;
 }
 nav .localisation .icone {
   width: 50px;
-  display: flex;
   justify-content: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #DEEBFF;
+  display: flex;
+  align-items: center;
+}
+nav .localisation .town {
+  border-top: #DEEBFF, solid;
+  border-bottom: #DEEBFF, solid;
+  font-weight: 900;
+}
+nav .localisation .recherche {
+  background-color: #0065FC;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
 }/*# sourceMappingURL=index.css.map */

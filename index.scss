@@ -57,19 +57,46 @@ nav {
     margin-left: 50px;
 
     h1 {
-        font-weight: 900;
+        font-weight: bolder;
+    }
+
+    h3 {
+        font-weight: 100;
     }
 
     .localisation {
-        display: flex;
+
         margin-top: 20px;
+        margin-bottom: 30px;
+        height: 40px;
+        display: flex;
+
 
         .icone {
             width: 50px;
-            display: flex;
             justify-content: center;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-color: $color-2;
+            display: flex;
+            align-items: center;
 
+        }
 
+        .town {
+            border-top: $color-2, solid;
+            border-bottom: $color-2, solid;
+            font-weight: 900;
+
+        }
+
+        .recherche {
+            background-color: $color-1;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            color: white;
+            text-align: center;
+            font-weight: 900;
         }
     }
 }
