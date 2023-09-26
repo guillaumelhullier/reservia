@@ -22,9 +22,9 @@ header {
     .container {
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
-        margin-left: 40px;
-        margin-right: 60px;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
 
 
         .sub-container1 {
@@ -37,7 +37,7 @@ header {
 
         .sub-container2 {
             width: 375px;
-            margin-right: 70px;
+            margin-right: 10px;
 
             ul {
                 list-style-type: none;
@@ -87,6 +87,9 @@ nav {
             border-top: $color-2, solid;
             border-bottom: $color-2, solid;
             font-weight: 900;
+            display: flex;
+            align-items: center;
+            width: 150px;
 
         }
 
@@ -97,6 +100,10 @@ nav {
             color: white;
             text-align: center;
             font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
         }
     }
 }
