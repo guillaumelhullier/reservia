@@ -4,7 +4,7 @@
 
 body {
   max-width: 1450px;
-  margin: auto;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
 
@@ -78,4 +78,118 @@ nav .localisation .recherche {
   align-items: center;
   justify-content: center;
   width: 150px;
+}
+nav .localisation .recherche p {
+  margin: 0px;
+}
+nav .filtre {
+  display: flex;
+  font-weight: bolder;
+  height: 25px;
+}
+nav .filtre p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+nav .filtre .economic {
+  display: flex;
+  border-color: #DEEBFF;
+  border-style: solid;
+  width: 125px;
+  margin-left: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+nav .filtre .economic i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  transform: translateY(-2px);
+}
+nav .filtre .economic p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+nav .filtre .familial {
+  display: flex;
+  border-color: #DEEBFF;
+  border-style: solid;
+  width: 125px;
+  margin-left: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+nav .filtre .familial i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  transform: translateY(-2px);
+}
+nav .filtre .familial p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+nav .filtre .romantic {
+  display: flex;
+  border-color: #DEEBFF;
+  border-style: solid;
+  width: 125px;
+  margin-left: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+nav .filtre .romantic i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  transform: translateY(-2px);
+}
+nav .filtre .romantic p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+nav .filtre .animal {
+  display: flex;
+  border-color: #DEEBFF;
+  border-style: solid;
+  width: 175px;
+  margin-left: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+nav .filtre .animal i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  transform: translateY(-2px);
+}
+nav .filtre .animal p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }/*# sourceMappingURL=index.css.map */

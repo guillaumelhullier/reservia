@@ -9,11 +9,15 @@ $color-3: #F2F2F2;
     margin: 0px;
 }
 
+
+
 body {
 
     max-width: 1450px;
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+
+
 
 }
 
@@ -104,6 +108,144 @@ nav {
             align-items: center;
             justify-content: center;
             width: 150px;
+
+            p {
+                margin: 0px;
+            }
+        }
+    }
+
+    .filtre {
+
+        display: flex;
+        font-weight: bolder;
+        height: 25px;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        .economic {
+            display: flex;
+            border-color: $color-2;
+            border-style: solid;
+            width: 125px;
+            margin-left: 40px;
+            border-radius: 50px;
+            overflow: hidden;
+
+            i {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $color-2;
+                color: $color-1;
+                height: 25px;
+                width: 25px;
+                border-radius: 50px;
+                transform: translateY(-2px);
+
+
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
+        }
+
+        .familial {
+            display: flex;
+            border-color: $color-2;
+            border-style: solid;
+            width: 125px;
+            margin-left: 40px;
+            border-radius: 50px;
+            overflow: hidden;
+
+            i {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $color-2;
+                color: $color-1;
+                height: 25px;
+                width: 25px;
+                border-radius: 50px;
+                transform: translateY(-2px);
+
+
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
+        }
+
+        .romantic {
+            display: flex;
+            border-color: $color-2;
+            border-style: solid;
+            width: 125px;
+            margin-left: 40px;
+            border-radius: 50px;
+            overflow: hidden;
+
+            i {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $color-2;
+                color: $color-1;
+                height: 25px;
+                width: 25px;
+                border-radius: 50px;
+                transform: translateY(-2px);
+
+
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
+        }
+
+        .animal {
+            display: flex;
+            border-color: $color-2;
+            border-style: solid;
+            width: 175px;
+            margin-left: 40px;
+            border-radius: 50px;
+            overflow: hidden;
+
+            i {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $color-2;
+                color: $color-1;
+                height: 25px;
+                width: 25px;
+                border-radius: 50px;
+                transform: translateY(-2px);
+
+
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
         }
     }
 }
