@@ -20,6 +20,7 @@ header .container .sub-container1 {
 }
 header .container .sub-container1 img {
   width: 100%;
+  font-weight: bolder;
 }
 header .container .sub-container2 {
   width: 375px;
@@ -38,10 +39,11 @@ nav {
   margin-top: 50px;
   margin-left: 50px;
 }
-nav h1 {
-  font-weight: bolder;
-}
 nav h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+nav h4 {
   font-weight: 100;
 }
 nav .localisation {
@@ -86,6 +88,7 @@ nav .filtre {
   display: flex;
   font-weight: bolder;
   height: 25px;
+  margin-bottom: 20px;
 }
 nav .filtre p {
   display: flex;
@@ -192,4 +195,24 @@ nav .filtre .animal p {
   display: flex;
   align-items: center;
   margin-left: 10px;
+}
+nav .info {
+  display: flex;
+}
+nav .info i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  color: #0065FC;
+  border-style: solid;
+  border-radius: 50px;
+  align-items: center;
+}
+nav .info span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
 }/*# sourceMappingURL=index.css.map */
