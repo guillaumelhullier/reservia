@@ -275,3 +275,17 @@ nav {
         }
     }
 }
+
+main {
+    .container-hebergements {
+        display: flex;
+
+        .hebergements {
+            width: 40%;
+        }
+
+        .popular {
+            width: 30%;
+        }
+    }
+}
