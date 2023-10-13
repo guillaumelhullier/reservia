@@ -219,10 +219,13 @@ nav .info span {
 
 main .container-hebergements {
   display: flex;
+  justify-content: space-between;
 }
 main .container-hebergements .hebergements {
   width: 40%;
+  background-color: #DEEBFF;
 }
 main .container-hebergements .popular {
   width: 30%;
+  background-color: #DEEBFF;
 }/*# sourceMappingURL=index.css.map */

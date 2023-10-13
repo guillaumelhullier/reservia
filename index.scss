@@ -279,13 +279,16 @@ nav {
 main {
     .container-hebergements {
         display: flex;
+        justify-content: space-between;
 
         .hebergements {
             width: 40%;
+            background-color: $color-2;
         }
 
         .popular {
             width: 30%;
+            background-color: $color-2;
         }
     }
 }
