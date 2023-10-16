@@ -219,6 +219,7 @@ nav .info span {
 
 main {
   margin-top: 30px;
+  margin-left: 55px;
 }
 main .container-hebergements {
   display: flex;
