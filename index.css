@@ -231,6 +231,10 @@ main .container-hebergements .hebergements {
   width: 65%;
   background-color: #DEEBFF;
 }
+main .container-hebergements .hebergements .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 main .container-hebergements .popular {
   width: 30%;
   background-color: #DEEBFF;
