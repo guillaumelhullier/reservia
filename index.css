@@ -234,6 +234,7 @@ main .container-hebergements .hebergements {
 main .container-hebergements .hebergements .box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 main .container-hebergements .popular {
   width: 30%;
