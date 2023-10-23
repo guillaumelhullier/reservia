@@ -231,6 +231,7 @@ main .container-hebergements {
 main .container-hebergements .hebergements {
   width: 65%;
   background-color: #DEEBFF;
+  border-radius: 30px;
 }
 main .container-hebergements .hebergements .box {
   display: grid;
