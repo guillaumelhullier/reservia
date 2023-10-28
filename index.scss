@@ -297,6 +297,8 @@ main {
                 margin-left: 40px;
                 font: size 20px;
                 font-weight: bold;
+                margin-bottom: 30px;
+
             }
 
             .box {
@@ -304,6 +306,10 @@ main {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-gap: 10px;
+
+                .boxe {
+                    height: 200px;
+                }
             }
         }
 
