@@ -1,15 +1,16 @@
-* {
-  margin: 0px;
+html {
+  max-width: 1450px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
-  max-width: 1450px;
-  margin: 1rem auto;
-  font-family: "Raleway", sans-serif;
-  align-items: center;
   width: 100%;
 }
 
+header {
+  font-family: "Raleway", sans-serif;
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -42,13 +43,14 @@ header .container .sub-container2 ul .a {
 nav {
   margin-top: 50px;
   margin-left: 50px;
+  font-family: "Raleway", sans-serif;
 }
 nav h3 {
   font-weight: bolder;
   font-size: 25px;
 }
 nav h4 {
-  font-weight: 100;
+  font-weight: 500;
 }
 nav .localisation {
   margin-top: 20px;
@@ -225,36 +227,35 @@ main {
   margin-top: 30px;
   margin-left: 55px;
   margin-right: 50px;
+  font-family: "Raleway", sans-serif;
 }
 main .container-hebergements {
   display: flex;
   justify-content: space-between;
-  /*.hebergements {
-      width: 65%;
-      background-color: $color-2;
-      border-radius: 30px;
-      height: 630px;
-
-      h1 {
-          margin-top: 40px;
-          margin-left: 40px;
-          font: size 20px;
-          font-weight: bold;
-          margin-bottom: 30px;
-
-      }
-
-      .box {
-
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: 10px;
-
-          .boxe {
-              height: 200px;
-          }
-      }
-  }*/
+}
+main .container-hebergements .hebergements {
+  width: 65%;
+  background-color: #DEEBFF;
+  border-radius: 30px;
+  height: 630px;
+}
+main .container-hebergements .hebergements h1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+main .container-hebergements .hebergements .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 40px;
+}
+main .container-hebergements .hebergements .box .boxe {
+  height: 200px;
+  max-width: 250px;
+  max-height: 200px;
 }
 main .container-hebergements .popular {
   width: 30%;
