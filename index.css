@@ -256,6 +256,7 @@ main .container-hebergements .hebergements .box .boxe {
   height: 200px;
   max-width: 250px;
   max-height: 200px;
+  background-color: #F2F2F2;
 }
 main .container-hebergements .popular {
   width: 30%;

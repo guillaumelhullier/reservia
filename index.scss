@@ -315,10 +315,13 @@ main {
                 grid-gap: 10px;
                 margin-left: 40px;
 
+
                 .boxe {
                     height: 200px;
                     max-width: 250px;
                     max-height: 200px;
+                    background-color: $color-3;
+
                 }
             }
         }
