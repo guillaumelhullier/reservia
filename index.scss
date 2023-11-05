@@ -314,13 +314,20 @@ main {
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-gap: 10px;
                 margin-left: 40px;
+                margin-right: 35px;
 
 
                 .boxe {
                     height: 200px;
+                    margin-top: 10px;
                     max-width: 250px;
                     max-height: 200px;
                     background-color: $color-3;
+
+                    img {
+                        max-height: 115px;
+                        width: 100%;
+                    }
 
                 }
             }

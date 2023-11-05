@@ -251,12 +251,18 @@ main .container-hebergements .hebergements .box {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-left: 40px;
+  margin-right: 35px;
 }
 main .container-hebergements .hebergements .box .boxe {
   height: 200px;
+  margin-top: 10px;
   max-width: 250px;
   max-height: 200px;
   background-color: #F2F2F2;
+}
+main .container-hebergements .hebergements .box .boxe img {
+  max-height: 115px;
+  width: 100%;
 }
 main .container-hebergements .popular {
   width: 30%;
