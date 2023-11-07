@@ -321,12 +321,16 @@ main {
                     border-radius: 20px;
                     max-height: 195px;
                     margin-top: 30px;
+                    overflow: hidden;
+                    padding: 5px;
                     width: 100%;
                     background-color: $color-3;
 
                     img {
                         max-height: 115px;
                         width: 100%;
+                        border-top-right-radius: 10px;
+                        border-top-left-radius: 10px;
                     }
 
                 }

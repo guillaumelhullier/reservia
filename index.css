@@ -257,12 +257,16 @@ main .container-hebergements .hebergements .box .boxe {
   border-radius: 20px;
   max-height: 195px;
   margin-top: 30px;
+  overflow: hidden;
+  padding: 5px;
   width: 100%;
   background-color: #F2F2F2;
 }
 main .container-hebergements .hebergements .box .boxe img {
   max-height: 115px;
   width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 main .container-hebergements .popular {
   width: 30%;
