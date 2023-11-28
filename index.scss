@@ -349,6 +349,12 @@ main {
                             font-weight: 900;
                         }
                     }
+
+                    .star {
+                        i.fas.fa-star {
+                            color: $color-1;
+                        }
+                    }
                 }
             }
         }
@@ -356,6 +362,7 @@ main {
         .popular {
             width: 30%;
             background-color: $color-2;
+            height: 630px;
         }
     }
 }

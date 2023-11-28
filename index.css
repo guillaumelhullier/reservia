@@ -282,7 +282,11 @@ main .container-hebergements .hebergements .box .boxe p {
 main .container-hebergements .hebergements .box .boxe p span {
   font-weight: 900;
 }
+main .container-hebergements .hebergements .box .boxe .star i.fas.fa-star {
+  color: #0065FC;
+}
 main .container-hebergements .popular {
   width: 30%;
   background-color: #DEEBFF;
+  height: 630px;
 }/*# sourceMappingURL=index.css.map */
