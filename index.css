@@ -285,6 +285,14 @@ main .container-hebergements .hebergements .box .boxe p span {
 main .container-hebergements .hebergements .box .boxe .star i.fas.fa-star {
   color: #0065FC;
 }
+main .container-hebergements .hebergements .box .boxe .star i.far.fa-star {
+  color: #c2c2c2;
+}
+main .container-hebergements .hebergements h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
 main .container-hebergements .popular {
   width: 30%;
   background-color: #DEEBFF;

@@ -354,8 +354,18 @@ main {
                         i.fas.fa-star {
                             color: $color-1;
                         }
+
+                        i.far.fa-star {
+                            color: #c2c2c2;
+                        }
                     }
                 }
+            }
+
+            h3 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 40px;
             }
         }
 
