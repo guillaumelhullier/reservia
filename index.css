@@ -297,4 +297,9 @@ main .container-hebergements .popular {
   width: 30%;
   background-color: #DEEBFF;
   height: 630px;
+  border-radius: 30px;
+}
+main .container-hebergements .popular .container h1 {
+  width: 10%;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

@@ -373,6 +373,14 @@ main {
             width: 30%;
             background-color: $color-2;
             height: 630px;
+            border-radius: 30px;
+
+            .container {
+                h1 {
+                    width: 10%;
+                    font-weight: bold;
+                }
+            }
         }
     }
 }
