@@ -244,7 +244,7 @@ main .container-hebergements .hebergements h1 {
   margin-left: 40px;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 main .container-hebergements .hebergements .box {
   display: grid;
@@ -302,9 +302,20 @@ main .container-hebergements .popular {
 }
 main .container-hebergements .popular .container {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 main .container-hebergements .popular .container h1 {
   font-weight: bold;
   font-size: 20px;
-  width: 90%;
+  width: 95%;
+}
+main .container-hebergements .popular .container .chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container-hebergements .popular .container .chart i {
+  font-weight: 900;
+  font-size: 30px;
 }/*# sourceMappingURL=index.css.map */
