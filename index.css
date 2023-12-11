@@ -333,9 +333,13 @@ main .container-hebergements .popular .sub-container .sub-container1 {
   justify-content: space-around;
   background-color: #F2F2F2;
   border-radius: 30px;
+  overflow: hidden;
+  padding: 5px;
 }
 main .container-hebergements .popular .sub-container .sub-container1 .sub-container-picture {
   width: 50%;
+  min-width: 150px;
+  margin-right: 5px;
 }
 main .container-hebergements .popular .sub-container .sub-container1 .sub-container-picture img {
   width: 100%;
@@ -343,4 +347,15 @@ main .container-hebergements .popular .sub-container .sub-container1 .sub-contai
 }
 main .container-hebergements .popular .sub-container .sub-container1 .sub-container-text h1 {
   font-size: 20px;
+  font-weight: bold;
+}
+main .container-hebergements .popular .sub-container .sub-container1 .sub-container-text .star i.fas.fa-star {
+  color: #0065FC;
+}
+main .container-hebergements .popular .sub-container .sub-container1 .sub-container-text .star i.far.fa-star {
+  color: #c2c2c2;
+}
+main .activites h1 {
+  font-size: 20px;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

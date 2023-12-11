@@ -416,9 +416,13 @@ main {
                     justify-content: space-around;
                     background-color: $color-3;
                     border-radius: 30px;
+                    overflow: hidden;
+                    padding: 5px;
 
                     .sub-container-picture {
                         width: 50%;
+                        min-width: 150px;
+                        margin-right: 5px;
 
                         img {
                             width: 100%;
@@ -429,10 +433,28 @@ main {
                     .sub-container-text {
                         h1 {
                             font-size: 20px;
+                            font-weight: bold;
+                        }
+
+                        .star {
+                            i.fas.fa-star {
+                                color: $color-1;
+                            }
+
+                            i.far.fa-star {
+                                color: #c2c2c2;
+                            }
                         }
                     }
                 }
             }
+        }
+    }
+
+    .activites {
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
         }
     }
 }
