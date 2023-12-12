@@ -455,6 +455,19 @@ main {
         h1 {
             font-size: 20px;
             font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .sub-container {
+            height: 455px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+
+            .sub-container0 {
+                width: 48%;
+            }
         }
     }
 }

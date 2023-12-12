@@ -358,4 +358,15 @@ main .container-hebergements .popular .sub-container .sub-container1 .sub-contai
 main .activites h1 {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 25px;
+}
+main .activites .sub-container {
+  height: 455px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+main .activites .sub-container .sub-container0 {
+  width: 48%;
 }/*# sourceMappingURL=index.css.map */
