@@ -369,4 +369,38 @@ main .activites .sub-container {
 }
 main .activites .sub-container .sub-container0 {
   width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+main .activites .sub-container .sub-container0 .sub-container01 {
+  width: 48%;
+  border-radius: 30px;
+}
+main .activites .sub-container .sub-container0 .sub-container01 img {
+  height: 380px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+main .activites .sub-container .sub-container0 .sub-container01 h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+main .activites .sub-container .sub-container0 .sub-container02 {
+  width: 48%;
+}
+main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a {
+  overflow: hidden;
+  border-radius: 30px;
+}
+main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a img {
+  height: 180px;
+  width: 100%;
+}
+main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+main .activites .sub-container .sub-container0 .sub-container02 .sub-container02b img {
+  height: 100px;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
