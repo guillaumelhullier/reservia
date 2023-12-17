@@ -319,6 +319,7 @@ main {
 
                 .boxe {
                     border-radius: 20px;
+                    box-shadow: 5px 5px 10px #808080;
                     max-height: 195px;
                     margin-top: 30px;
                     overflow: hidden;
@@ -493,6 +494,7 @@ main {
                     .sub-container02a {
                         overflow: hidden;
                         border-radius: 30px;
+                        margin-bottom: 40px;
 
                         img {
                             height: 180px;
@@ -506,9 +508,17 @@ main {
                     }
 
                     .sub-container02b {
+                        overflow: hidden;
+                        border-radius: 30px;
+
                         img {
                             height: 100px;
                             width: 100%;
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                            font-weight: bold;
                         }
                     }
                 }
