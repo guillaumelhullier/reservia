@@ -376,6 +376,8 @@ main .activites .sub-container .sub-container0 {
 main .activites .sub-container .sub-container0 .sub-container01 {
   width: 48%;
   border-radius: 30px;
+  box-shadow: 5px 5px 10px #808080;
+  height: 100%;
 }
 main .activites .sub-container .sub-container0 .sub-container01 img {
   height: 380px;
@@ -385,14 +387,17 @@ main .activites .sub-container .sub-container0 .sub-container01 img {
 main .activites .sub-container .sub-container0 .sub-container01 h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-left: 5px;
 }
 main .activites .sub-container .sub-container0 .sub-container02 {
   width: 48%;
+  height: 100%;
 }
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a {
   overflow: hidden;
   border-radius: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  box-shadow: 5px 5px 10px #808080;
 }
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a img {
   height: 180px;
@@ -401,10 +406,12 @@ main .activites .sub-container .sub-container0 .sub-container02 .sub-container02
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02a h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-left: 5px;
 }
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02b {
   overflow: hidden;
   border-radius: 30px;
+  box-shadow: 5px 5px 10px #808080;
 }
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02b img {
   height: 100px;
@@ -413,4 +420,25 @@ main .activites .sub-container .sub-container0 .sub-container02 .sub-container02
 main .activites .sub-container .sub-container0 .sub-container02 .sub-container02b h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-left: 5px;
+}
+main .activites .sub-container .sub-container00 {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+main .activites .sub-container .sub-container00 .sub-container01 {
+  width: 48%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+main .activites .sub-container .sub-container00 .sub-container01 img {
+  height: 385px;
+}
+main .activites .sub-container .sub-container00 .sub-container01 h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+main .activites .sub-container .sub-container00 .sub-container02 {
+  width: 48%;
 }/*# sourceMappingURL=index.css.map */

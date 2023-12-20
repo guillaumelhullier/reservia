@@ -474,6 +474,8 @@ main {
                 .sub-container01 {
                     width: 48%;
                     border-radius: 30px;
+                    box-shadow: 5px 5px 10px #808080;
+                    height: 100%;
 
                     img {
                         height: 380px;
@@ -484,17 +486,20 @@ main {
                     h2 {
                         font-size: 20px;
                         font-weight: bold;
+                        margin-left: 5px;
                     }
                 }
 
                 .sub-container02 {
                     width: 48%;
+                    height: 100%;
 
 
                     .sub-container02a {
                         overflow: hidden;
                         border-radius: 30px;
-                        margin-bottom: 40px;
+                        margin-bottom: 60px;
+                        box-shadow: 5px 5px 10px #808080;
 
                         img {
                             height: 180px;
@@ -504,12 +509,14 @@ main {
                         h2 {
                             font-size: 20px;
                             font-weight: bold;
+                            margin-left: 5px;
                         }
                     }
 
                     .sub-container02b {
                         overflow: hidden;
                         border-radius: 30px;
+                        box-shadow: 5px 5px 10px #808080;
 
                         img {
                             height: 100px;
@@ -519,8 +526,34 @@ main {
                         h2 {
                             font-size: 20px;
                             font-weight: bold;
+                            margin-left: 5px;
                         }
                     }
+                }
+            }
+
+            .sub-container00 {
+                width: 48%;
+                display: flex;
+                justify-content: space-between;
+
+                .sub-container01 {
+                    width: 48%;
+                    border-radius: 30px;
+                    overflow: hidden;
+
+                    img {
+                        height: 385px;
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                }
+
+                .sub-container02 {
+                    width: 48%;
                 }
             }
         }
