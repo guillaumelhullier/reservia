@@ -227,6 +227,7 @@ main {
   margin-top: 30px;
   margin-left: 55px;
   margin-right: 50px;
+  margin-bottom: 60px;
   font-family: "Raleway", sans-serif;
 }
 main .container-hebergements {
@@ -472,4 +473,19 @@ main .activites .sub-container .sub-container00 .sub-container02 .sub-container2
   font-size: 20px;
   font-weight: bold;
   margin-left: 5px;
+}
+
+footer {
+  height: 100px;
+}
+footer .footer-cont {
+  background-color: #DEEBFF;
+  display: flex;
+}
+footer .footer-cont .container1 {
+  margin-left: 50px;
+  margin-right: 200px;
+}
+footer .footer-cont .container2 {
+  margin-right: 200px;
 }/*# sourceMappingURL=index.css.map */
