@@ -502,4 +502,10 @@ footer .footer-cont .container3 {
 footer .footer-cont .container3 ul {
   list-style: none;
   padding: 0px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .version1 {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
