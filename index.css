@@ -504,8 +504,8 @@ footer .footer-cont .container3 ul {
   padding: 0px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
-  .version1 {
+@media only screen and (min-width: 600px) {
+  .version2 {
     display: none;
   }
 }/*# sourceMappingURL=index.css.map */
