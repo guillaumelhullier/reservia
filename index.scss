@@ -643,3 +643,22 @@ footer {
         display: none;
     }
 }
+
+@media only screen and (max-width:600px) {
+    .version1 {
+        display: none;
+    }
+
+    .version2 {
+        display: flex;
+        justify-content: space-around;
+
+        .container1 {
+            width: 40%;
+        }
+
+        .container2 {
+            width: 40%;
+        }
+    }
+}

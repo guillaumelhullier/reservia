@@ -508,4 +508,19 @@ footer .footer-cont .container3 ul {
   .version2 {
     display: none;
   }
+}
+@media only screen and (max-width: 600px) {
+  .version1 {
+    display: none;
+  }
+  .version2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .version2 .container1 {
+    width: 40%;
+  }
+  .version2 .container2 {
+    width: 40%;
+  }
 }/*# sourceMappingURL=index.css.map */
